@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>SynergyBI — Data & Analytics Solutions</title>
+  <meta name="description" content="Professional data & analytics solutions to help your business grow. Dashboards, automation, and BI consulting.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="assets/logo.svg">
+  <meta name="theme-color" content="#0ea5a4">
+  <style>
+    /* small helper to ensure assets path works when hosted from a subfolder on GitHub Pages */
+    :root{--asset-path: './assets';}
+  </style>
+</head>
+<body>
+  <header class="container">
+    <a class="brand" href="/">
+      <img src="assets/logo.svg" alt="SynergyBI logo">
+    </a>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <a class="cta" href="#contact">Get a Proposal</a>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <div class="hero-card">
+          <h1>Turn your data into confident decisions</h1>
+          <p class="lead">We help NGOs, government, and businesses centralize, analyze, and visualize data for better decisions, faster.</p>
+          <p><a class="cta" href="#contact">Book a free consult</a></p>
+        </div>
+
+        <div class="features" id="services" aria-label="Services">
+          <div class="feature">
+            <h3>Dashboards & Reporting</h3>
+            <p>Interactive dashboards tailored to stakeholder needs — fast, clear, and actionable.</p>
+          </div>
+          <div class="feature">
+            <h3>Data Strategy</h3>
+            <p>Roadmaps to maturity: data collection, governance, and scalable analytics workflows.</p>
+          </div>
+          <div class="feature">
+            <h3>Automation</h3>
+            <p>Automated data pipelines and scheduled reports so your team focuses on insights, not manual work.</p>
+          </div>
+        </div>
+      </div>
+      <aside class="hero-card" aria-hidden="false">
+        <h3>Why choose SynergyBI?</h3>
+        <ul>
+          <li>Trusted by businesses to reduce reporting time by weeks.</li>
+          <li>Clear visualizations that lead to action.</li>
+          <li>Flexible engagement: project or retainer.</li>
+        </ul>
+      </aside>
+    </section>
+
+    <section id="about" class="container" aria-labelledby="abouttitle">
+      <h2 id="abouttitle">About SynergyBI</h2>
+      <p>We help NGOs, government, and businesses centralize, analyze, and visualize data for better decisions, faster.</p>
+    </section>
+
+    <section id="contact" class="container">
+      <h2>Contact</h2>
+      <p>Ready to improve your analytics? Email <a href="mailto:hello@synergybi.example">hello@synergybi.example</a> or fill this simple form.</p>
+      <form action="#" onsubmit="alert('Demo: form submission disabled. Replace with your backend or Netlify/Forms setup.');return false;" aria-label="Contact form">
+        <label for="name">Name</label><br/>
+        <input id="name" name="name" required style="padding:8px;margin:6px 0;width:100%;max-width:420px;"><br/>
+        <label for="email">Email</label><br/>
+        <input id="email" name="email" type="email" required style="padding:8px;margin:6px 0;width:100%;max-width:420px;"><br/>
+        <label for="message">Message</label><br/>
+        <textarea id="message" name="message" rows="4" style="padding:8px;margin:6px 0;width:100%;max-width:420px;"></textarea><br/>
+        <button class="cta" type="submit" style="border:none;cursor:pointer;">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="container">
+    <small>© 2025 SynergyBI — Built for clarity. Deploy to GitHub Pages by pushing this folder to your repository's root.</small>
+  </footer>
+</body>
+</html>
